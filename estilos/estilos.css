@@ -1,0 +1,79 @@
+body {
+	background: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+hr {
+	margin: 20px 0px;
+}
+
+.centralizar {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#cabecalho {
+	background: #FBF2F7;
+	color: #383838;
+	text-align: center;
+}
+
+#logo {
+	width: 200px;
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+#menu {
+
+	a:link, a:visited {
+		text-decoration-line: none;
+		display: inline-block;
+		color: #383838;
+		font-family: "Calibri Light", "Trebuchet MS", serif;
+		margin: 0px 10px 10px 10px;
+		padding: 10px;
+	}
+
+	a:hover {
+		background: #383838;
+		color: #FBECF6;
+	}
+}
+
+#pagina_atual{
+	font-weight: bold;
+}
+
+#corpo {
+	margin: 50px auto;
+	width: 920px;
+}
+
+#em_breve {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+
+#rodape {
+	background: #383838;
+	color: #FFF;
+	font-family: "Calibri Light", Garamond, serif;
+	padding: 15px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+
+	a:link, a:visited {
+		color: #FFF;
+	}
+}
+
+#corpo_rodape {
+	width: 800px;
+	margin: 0px auto;
+}
