@@ -49,7 +49,7 @@ hr {
 }
 
 #corpo {
-	margin: 50px auto;
+	margin: 100px auto;
 	width: 920px;
 }
 
@@ -76,4 +76,12 @@ hr {
 #corpo_rodape {
 	width: 800px;
 	margin: 0px auto;
+}
+
+#entrada {
+	display: block;
+	margin: 20px auto;
+	height: 30px;
+	width: 200px;
+	font-size: 1.2em;
 }
