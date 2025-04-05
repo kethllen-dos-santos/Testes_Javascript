@@ -8,6 +8,15 @@ hr {
 	margin: 20px 0px;
 }
 
+h1 {
+	font-family: "Century Gothic","Trebuchet MS", serif;
+}
+
+h2 {
+	font-family: "Century Gothic","Trebuchet MS", serif;
+	font-size: 1.3em;
+}
+
 .centralizar {
 	display: block;
 	margin: auto;
@@ -49,7 +58,6 @@ hr {
 }
 
 #corpo {
-	margin: 100px auto;
 	width: 920px;
 }
 
@@ -84,4 +92,11 @@ hr {
 	height: 30px;
 	width: 200px;
 	font-size: 1.2em;
+}
+
+#quadrado {
+	background: #CCC;
+	width: 50px;
+	height: 50px;
+	text-align: center;
 }

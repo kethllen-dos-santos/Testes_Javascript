@@ -23,12 +23,20 @@
 
 	</div> <!-- Fim cabeçalho -->
 
-	<div id="corpo">
-		<h1 class="centralizar">Em breve</h1>
+	<div id="corpo" class="centralizar" style="margin: 50px auto">
+		<h2>Clique nos botões</h2>
 
 		<!-- Início conteúdo -->
-
-		<img src="midia/em_breve.gif" id="em_breve">
+		<input type="button" name="botao_cor" value="Verde" onclick="mudarCorFundo('#C0E8DD')">
+		<input type="button" name="botao_cor" value="Rosa" onclick="mudarCorFundo('#F3D2E3')">
+		<input type="button" name="botao_cor" value="Lilás" onclick="mudarCorFundo('#D3D5EA')">
+		<br>
+		<br>
+		<div id="quadrado" class="centralizar"></div>
+		<br>
+		<input type="button" name="botao_tamanho" value="100px" onclick="mudarTamanho('100')">
+		<input type="button" name="botao_tamanho" value="150px" onclick="mudarTamanho('150')">
+		<input type="button" name="botao_tamanho" value="200px" onclick="mudarTamanho('200')">
 
 		<!-- Fim conteúdo -->
 
