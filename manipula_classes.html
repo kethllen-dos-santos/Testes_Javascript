@@ -23,12 +23,18 @@
 
 	</div> <!-- Fim cabeçalho -->
 
-	<div id="corpo">
-		<h1 class="centralizar">Em breve</h1>
+	<div id="corpo" class="centralizar" style="margin: 50px auto;">
 
 		<!-- Início conteúdo -->
 
-		<img src="midia/em_breve.gif" id="em_breve">
+		<div id="texto">Manipulando classes</div>
+		<br>
+		<select id="selecao" class="centralizar" onclick="mudarEstilo()">
+			<option hidden disabled selected> -- Selecione uma opção -- </option>
+			<option value="estilo_1">Estilo 1</option>
+			<option value="estilo_2">Estilo 2</option>
+			<option value="estilo_3">Estilo 3</option>
+		</select>
 
 		<!-- Fim conteúdo -->
 
@@ -43,7 +49,7 @@
 		</div>
 	</div> <!-- Fim rodapé -->
 
-	<script type="text/javascript" src="scripts/scripts.js"></script>
+	<script type="text/javascript" src="scripts/manipula_classes_scripts.js"></script>
 </body>
 
 </html>
