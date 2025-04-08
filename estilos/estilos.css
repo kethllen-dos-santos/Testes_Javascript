@@ -8,12 +8,11 @@ hr {
 	margin: 20px 0px;
 }
 
-h1 {
+h1, h2, p, b, span {
 	font-family: "Century Gothic","Trebuchet MS", serif;
 }
 
 h2 {
-	font-family: "Century Gothic","Trebuchet MS", serif;
 	font-size: 1.3em;
 }
 

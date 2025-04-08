@@ -23,12 +23,18 @@
 
 	</div> <!-- Fim cabeçalho -->
 
-	<div id="corpo" class="centralizar">
-		<h1>Em breve</h1>
-
+	<div id="corpo" class="centralizar" style="margin: 50px auto;">
+		
 		<!-- Início conteúdo -->
 
-		<img src="midia/em_breve.gif" id="em_breve">
+		<p>Selecione as datas:</p>
+		<br>
+		<input type="datetime-local" id="data1">
+		<input type="datetime-local" id="data2">
+		<br><br>
+		<button type="button" style="margin-bottom: 20px" onclick="calculardiferencaDatas()">Calcular diferença</button>
+		<br>
+		<p id="lista"></p>
 
 		<!-- Fim conteúdo -->
 
