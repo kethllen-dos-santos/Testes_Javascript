@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Manipulando classes</title>
+	<title>Manipulando informações</title>
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
@@ -17,25 +17,26 @@
 		<div id="menu">
 			<a href="manipula_informacoes.html">Manipulando informações</a>
 			<a href="manipula_estilos.html">Manipulando estilos</a>
-			<a href="manipula_classes.html" id="pagina_atual">Manipulando classes</a>
+			<a href="manipula_classes.html">Manipulando classes</a>
 			<a href="calcula_tempo.html">Calcula tempo</a>
-			<a href="manipula_arrays.html">Manipulando arrays</a>
+			<a href="manipula_arrays.html" id="pagina_atual">Manipulando arrays</a>
 		</div>
 
 	</div> <!-- Fim cabeçalho -->
 
 	<div id="corpo" class="centralizar">
-
 		<!-- Início conteúdo -->
-
-		<div id="texto">Manipulando classes</div>
-		<br>
-		<select id="selecao" class="centralizar" onclick="mudarEstilo()">
-			<option hidden disabled selected> -- Selecione uma opção -- </option>
-			<option value="estilo_1">Estilo 1</option>
-			<option value="estilo_2">Estilo 2</option>
-			<option value="estilo_3">Estilo 3</option>
-		</select>
+		<input
+			type="text"
+			id="entrada"
+			class="centralizar" 
+			placeholder="Insira uma palavra">
+		<button onclick="adicionarObjeto()">Adicionar</button>
+		<button onclick="ordenarLista()">Ordenar</button>
+		<button onclick="deletarObjeto()">Deletar</button>
+		<br><br>
+		<h2>Lista</h2>
+		<p id="lista"></p>
 
 		<!-- Fim conteúdo -->
 
@@ -50,7 +51,7 @@
 		</div>
 	</div> <!-- Fim rodapé -->
 
-	<script type="text/javascript" src="scripts/manipula_classes_scripts.js"></script>
+	<script type="text/javascript" src="scripts/manipula_arrays_scripts.js"></script>
 </body>
 
 </html>
