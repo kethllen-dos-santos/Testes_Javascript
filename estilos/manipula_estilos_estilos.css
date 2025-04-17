@@ -1,0 +1,39 @@
+#selecao {
+	display: block;
+	margin: 20px auto;
+	height: 30px;
+	width: 200px;
+}
+
+#quadrado {
+	background: #CCC;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.estilo1 {
+	background: #F7B700;
+	color: black;
+	font-family: Tahoma, sans-serif;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.estilo2 {
+	background: indianred;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	font-size: 1.5em;
+	border: 7px double white;
+	padding: 15px;
+}
+
+.estilo3 {
+	background: purple;
+	color: greenyellow;
+	font-family: "Century Gothic", Georgia, sans-serif;
+	font-size: 1.5em;
+	border: 8px dotted greenyellow;
+	padding: 20px;
+}
