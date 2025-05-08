@@ -1,0 +1,68 @@
+html {
+	cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+
+body {
+	background: #FCD24C  url("imagens/fundo.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+	padding: 0px;
+	margin: 0px;
+
+	overflow: hidden;
+
+}
+
+.mosquito1 {
+	height: 50px;
+	width: 50px;
+	z-index: 20;
+}
+
+.mosquito2 {
+	height: 70px;
+	width: 70px;
+	z-index: 20;
+}
+
+.mosquito3 {
+	height: 90px;
+	width: 90px;
+	z-index: 20;
+}
+
+.ladoA {
+	transform: scaleX(1);
+}
+
+.ladoB {
+	transform: scaleX(-1);
+}
+
+.painel {
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 200px;
+	padding:10px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.cronometro {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.sobreposicao {
+	z-index: 10;
+}
+
+.baloes {
+	position: absolute;
+	bottom: 0;
+	height: 40%;
+	z-index: 8;
+}
